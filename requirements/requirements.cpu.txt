@@ -1,0 +1,37 @@
+attrdict @ git+https://github.com/akitenkrad/attrdict
+black
+black[jupyter]
+click
+dgl
+dglgo
+flake8
+glob
+h5py
+ipywidgets
+isort
+json
+jupyterlab
+mypy
+networkx
+nltk
+torch
+torchaudio
+torchvision
+torchinfo
+torchtext
+numpy
+pandas
+plotly
+py-cpuinfo
+pytest
+python-dateutil
+pytz
+PyYAML
+scikit-learn
+scipy
+seaborn
+tensorboard
+tools @ git+https://github.com/akitenkrad/tools
+tqdm
+types-python-dateutil
+types-PyYAML
