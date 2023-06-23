@@ -209,8 +209,8 @@ def draw_graph(
             anomaly_head_list.append((x1, y1))
             anomaly_tail_list.append((x0, y0))
 
-    benign_node_df = pd.DataFrame(benign_node)
-    anomaly_node_df = pd.DataFrame(anomaly_node)
+    benign_node_df = pd.DataFrame(benign_node).drop_duplicates()
+    anomaly_node_df = pd.DataFrame(anomaly_node).drop_duplicates()
 
     return (
         benign_node_df,
